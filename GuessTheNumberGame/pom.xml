@@ -12,6 +12,12 @@
     </modules>
     <packaging>pom</packaging>
 
+    <properties>
+        <logback.version>1.2.3</logback.version>
+        <spring.version>5.0.5.RELEASE</spring.version>
+        <java.version>10</java.version>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
 
@@ -32,12 +38,19 @@
         </dependencies>
     </dependencyManagement>
 
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <logback.version>1.4.5</logback.version>
-        <spring.version>6.0.3</spring.version>
-    </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <target>${java.version}</target>
+                    <source>${java.version}</source>
+                    <release>${java.version}</release>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
