@@ -42,7 +42,7 @@ public class GameImpl implements Game{
 
     // == public methods ==
     @Override
-    public int gerNumber() {
+    public int getNumber() {
         return number;
     }
 

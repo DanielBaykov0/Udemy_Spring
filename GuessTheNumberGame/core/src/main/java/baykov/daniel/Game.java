@@ -2,7 +2,7 @@ package baykov.daniel;
 
 public interface Game {
 
-    int gerNumber();
+    int getNumber();
 
     int getGuess();
 
