@@ -1,6 +1,6 @@
 package baykov.daniel.console;
 
-import baykov.daniel.AppConfig;
+import baykov.daniel.config.AppConfig;
 import baykov.daniel.MessageGenerator;
 import baykov.daniel.NumberGenerator;
 import org.slf4j.Logger;
