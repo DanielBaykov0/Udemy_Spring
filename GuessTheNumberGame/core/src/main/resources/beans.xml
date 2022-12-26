@@ -7,7 +7,7 @@
     <bean id="numberGenerator" class="baykov.daniel.NumberGeneratorImpl"/>
 
     <bean id="game" class="baykov.daniel.GameImpl">
-        <constructor-arg ref="numberGenerator"/>
+        <property name="numberGenerator" ref="numberGenerator"/>
     </bean>
 
 </beans>
