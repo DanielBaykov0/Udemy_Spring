@@ -7,11 +7,6 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:annotation-config/>
-
-    <bean id="numberGenerator" class="baykov.daniel.NumberGeneratorImpl"/>
-
-    <bean id="game" class="baykov.daniel.GameImpl">
-    </bean>
+    <context:component-scan base-package="baykov.daniel"/>
 
 </beans>
