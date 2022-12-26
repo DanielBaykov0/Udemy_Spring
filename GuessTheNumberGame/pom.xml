@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>baykov.daniel</groupId>
     <artifactId>GuessTheNumberGame</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
@@ -13,9 +13,11 @@
     <packaging>pom</packaging>
 
     <properties>
-        <logback.version>1.2.3</logback.version>
+        <logback.version>1.4.5</logback.version>
         <spring.version>5.0.5.RELEASE</spring.version>
-        <java.version>10</java.version>
+        <java.version>11</java.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
     <dependencyManagement>
@@ -44,11 +46,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
-                <configuration>
-                    <target>${java.version}</target>
-                    <source>${java.version}</source>
-                    <release>${java.version}</release>
-                </configuration>
             </plugin>
         </plugins>
     </build>

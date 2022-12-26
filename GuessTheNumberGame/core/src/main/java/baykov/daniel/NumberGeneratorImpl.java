@@ -1,4 +1,4 @@
-package org.example;
+package baykov.daniel;
 
 import java.util.Random;
 

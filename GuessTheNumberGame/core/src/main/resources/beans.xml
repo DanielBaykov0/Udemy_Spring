@@ -4,5 +4,5 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="numberGenerator" class="org.example.NumberGeneratorImpl"/>
+    <bean id="numberGenerator" class="baykov.daniel.NumberGeneratorImpl"/>
 </beans>
