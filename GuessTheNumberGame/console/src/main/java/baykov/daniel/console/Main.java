@@ -1,5 +1,8 @@
-package baykov.daniel;
+package baykov.daniel.console;
 
+import baykov.daniel.AppConfig;
+import baykov.daniel.MessageGenerator;
+import baykov.daniel.NumberGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
