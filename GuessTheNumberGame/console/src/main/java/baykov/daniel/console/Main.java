@@ -1,6 +1,6 @@
 package baykov.daniel.console;
 
-import baykov.daniel.config.AppConfig;
+import baykov.daniel.config.GameConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -16,7 +16,7 @@ public class Main {
 
         // create context (container)
         ConfigurableApplicationContext context =
-                new AnnotationConfigApplicationContext(AppConfig.class);
+                new AnnotationConfigApplicationContext(GameConfig.class);
 
         // close context (container)
         context.close();
