@@ -10,9 +10,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HelloMaven" />
         <module name="core" />
         <module name="console" />
+        <module name="ToDoList" />
+        <module name="HelloMaven" />
       </profile>
     </annotationProcessing>
   </component>
