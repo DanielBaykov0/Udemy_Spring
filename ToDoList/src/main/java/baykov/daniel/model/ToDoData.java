@@ -15,7 +15,7 @@ public class ToDoData {
 
     private final List<ToDoItem> items = new ArrayList<>();
 
-    // == contructors ==
+    // == constructors ==
     public ToDoData() {
 
         // add some dummy data, using addItem method so it sets the id field
